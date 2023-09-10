@@ -62,52 +62,28 @@ resource diagnosticSettings 'Microsoft.Insights/diagnosticSettings@2017-05-01-pr
       {
         category: 'AppServiceHTTPLogs'
         enabled: true
-        retentionPolicy: {
-          days: 180
-          enabled: true
-        }
       }
       {
         category: 'AppServiceConsoleLogs'
         enabled: true
-        retentionPolicy: {
-          days: 180
-          enabled: true
-        }
       }
       {
         category: 'AppServiceAppLogs'
         enabled: true
-        retentionPolicy: {
-          days: 180
-          enabled: true
-        }
       }
       {
         category: 'AppServiceAuditLogs'
         enabled: true
-        retentionPolicy: {
-          days: 180
-          enabled: true
-        }
       }
       {
         category: 'AppServiceIPSecAuditLogs'
         enabled: true
-        retentionPolicy: {
-          days: 180
-          enabled: true
-        }
       }
     ]
     metrics: [
       {
         category: 'AllMetrics'
         enabled: true
-        retentionPolicy: {
-          days: 90
-          enabled: true
-        }
         timeGrain: 'string'
       }
     ]

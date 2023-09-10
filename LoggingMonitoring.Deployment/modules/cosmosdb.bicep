@@ -118,52 +118,28 @@ resource diagnosticSettings 'Microsoft.Insights/diagnosticSettings@2017-05-01-pr
       {
         category: 'DataPlaneRequests'
         enabled: true
-        retentionPolicy: {
-          days: 180
-          enabled: true
-        }
       }
       {
         category: 'QueryRuntimeStatistics'
         enabled: true
-        retentionPolicy: {
-          days: 180
-          enabled: true
-        }
       }
       {
         category: 'PartitionKeyRUConsumption'
         enabled: true
-        retentionPolicy: {
-          days: 180
-          enabled: true
-        }
       }
       {
         category: 'ControlPlaneRequests'
         enabled: true
-        retentionPolicy: {
-          days: 180
-          enabled: true
-        }
       }
       {
         category: 'PartitionKeyStatistics'
         enabled: true
-        retentionPolicy: {
-          days: 180
-          enabled: true
-        }
       }
     ]
     metrics: [
       {
         category: 'Requests'
         enabled: true
-        retentionPolicy: {
-          days: 90
-          enabled: true
-        }
         timeGrain: 'string'
       }
     ]
